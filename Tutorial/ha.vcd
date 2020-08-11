@@ -1,0 +1,78 @@
+$date
+  Sat Jul 04 12:23:41 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module ha_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # s $end
+$var reg 1 $ c $end
+$var reg 1 % avec[0:0] $end
+$var reg 1 & bvec[0:0] $end
+$var reg 2 ' ab[1:0] $end
+$var reg 2 ( cs[1:0] $end
+$scope module ha $end
+$var reg 1 ) a $end
+$var reg 1 * b $end
+$var reg 1 + s $end
+$var reg 1 , c $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+U!
+U"
+U#
+U$
+bU %
+bU &
+b00 '
+bUU (
+U)
+U*
+U+
+U,
+#10000000
+0!
+0"
+0#
+0$
+0)
+0*
+0+
+0,
+#20000000
+b01 '
+#30000000
+1"
+1#
+1*
+1+
+#40000000
+b10 '
+#50000000
+1!
+0"
+1)
+0*
+#60000000
+b11 '
+#70000000
+1"
+0#
+1$
+1*
+0+
+1,
+#80000000

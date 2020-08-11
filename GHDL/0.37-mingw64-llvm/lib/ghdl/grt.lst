@@ -1,0 +1,6 @@
+@/libgrt.a
+-ldbghelp
+-L.\
+-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.1.0/adalib/
+-lz
+-Wl,--stack=0x2000000

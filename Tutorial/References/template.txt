@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity template is 
+    port (input1, input2 : in std_logic; output : out std_logic);
+end template;
+
+architecture basic of template is
+    signal s0, s1 : std_logic;
+begin
+    ha: entity work.ha port map(input1, input2, ...);
+end architecture basic;

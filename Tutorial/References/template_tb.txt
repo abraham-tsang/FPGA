@@ -1,0 +1,43 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity template_tb is
+end entity template_tb;
+
+architecture test of template_tb is
+    signal input1, input2, output : std_logic;
+    signal input1vec, input2vec : std_logic_vector(1 downto 0);
+    signal input1input2 : std_logic_vector(1 downto 0);
+    signal outputvec : std_logic_vector(1 downto 0);
+begin
+    template: entity work.template port map (input1, input2, output);
+    process is
+    begin
+
+        for I in 0 to loop
+	    input1input2 <= std_logic_vector(to_unsigned(I, input1input2'length));
+	    wait for 10 ns;
+
+	    input1 <= input1input2(1);
+	    input2 <= input1input2(0);
+	    wait for 10 ns;
+
+	    input1vec <= "0" & input1;
+	    input2vec <= "0" & input2;
+	    wait for 10 ns;
+
+	    outputvec <= ; -- Use a different way to get result
+	    wait for 10 ns;
+
+            if outputvec(0) /= output then
+	        report "FAILURE";
+	    --end if;
+	        report "Input: " & std_logic'image(a) & std_logic'image(b);
+	        report "Expected: " & std_logic'image(outputvec(0));
+	        report "Got: " & std_logic'image(output);
+	    end if;
+	end loop;
+        wait;
+    end process;
+end architecture test;
