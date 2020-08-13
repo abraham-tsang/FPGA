@@ -6,13 +6,22 @@
 
 ## Getting Started
 
+This is All Things FPGA, where everything about FPGA is included, includeing tools to use, digital logic, and references. 
+
 ### Prerequisite
+You need GHDL and gtkwave to compile.
 
 ### Installing
-
+To install GHDL and gtkwave, follow the official instructions.
 
 ## Compilation
-* 
+To compile any digital logic, please follow these instructions.
+```
+ghdl -a example.vhdl
+ghdl -a example_tb.vhdl
+ghdl -e example_tb
+ghdl -r example_tb
+```
 
 ## Authors
 * Abe Tsang
