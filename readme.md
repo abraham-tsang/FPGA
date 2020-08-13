@@ -3,3 +3,19 @@
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) 
 ![GitHub contributors](https://img.shields.io/badge/Contributors-1-gold.svg) 
 ![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)
+
+## Getting Started
+
+### Prerequisite
+
+### Installing
+
+
+## Compilation
+* 
+
+## Authors
+* Abe Tsang
+
+## Acknowledgments
+* simplecpudesign.com
